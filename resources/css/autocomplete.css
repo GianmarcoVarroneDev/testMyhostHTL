@@ -1,0 +1,21 @@
+
+.pac-container{
+
+    border-radius: 0px 0px 15px 15px !important;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px 0px, rgba(0, 0, 0, 0.24) 0px 1px 2px 0px !important;
+    border-top: none !important;
+    margin-top: 1px !important;
+    z-index: 10000 !important;
+}
+
+.pac-container::after{
+    display: none !important;
+}
+
+.pac-item:after{
+    display: none !important;
+}
+
+.pac-matched{
+    color: #34c759 !important;
+}
